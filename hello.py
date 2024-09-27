@@ -1,2 +1,2 @@
-print("welcome")
+print("this is another string")
 
