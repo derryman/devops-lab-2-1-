@@ -1,6 +1,8 @@
-numbers = input("Enter numbers seperated b y space: ").split()
-numbers = [float(num) for num in numbers]
-
+numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
 average = sum(numbers) / len(numbers)
-print(f"THe average is: {average}")
+largest = max(numbers)
+smallest = min(numbers)
 
+print(f"Average: {average}")
+print(f"Largest number: {largest}")
+print(f"Smallest number: {smallest}")
